@@ -1,0 +1,1 @@
+SELECT id FROM homework_1.tickets WHERE NOT (price >= 9100 AND price <= 70400);

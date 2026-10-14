@@ -1,0 +1,1 @@
+SELECT id FROM homework_1.clients WHERE name LIKE 'Daria%';

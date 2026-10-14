@@ -1,0 +1,1 @@
+SELECT model_name FROM airliners WHERE range >= 4200 AND range <= 7900;

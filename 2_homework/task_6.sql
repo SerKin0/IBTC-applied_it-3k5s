@@ -1,0 +1,1 @@
+SELECT id FROM homework_1.trips WHERE departure = 'DME' AND status = 'Cancelled';

@@ -1,0 +1,2 @@
+-- Находим всех пассажиров с фамилией "Volkov" и "Volkova" в таблице clients с возрастом от 21 до 25 лет включительно
+SELECT id FROM homework_1.clients WHERE age <= 25 AND age >= 21 AND (name LIKE '%Volkov%' OR name LIKE '%Volkova%');

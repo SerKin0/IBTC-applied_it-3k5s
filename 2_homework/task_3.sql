@@ -1,0 +1,1 @@
+SELECT side_number FROM airliners WHERE color = 'white';

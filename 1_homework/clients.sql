@@ -16,5 +16,6 @@ SELECT * FROM clients;
 COPY clients FROM 'C:\Program Files\PostgreSQL\17\data\clients.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
 
+
 -- Проверяем, что данные вставлены
 SELECT * FROM clients;

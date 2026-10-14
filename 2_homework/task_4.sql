@@ -1,0 +1,1 @@
+SELECT range FROM airliners WHERE model_name = 'Cessna 172';

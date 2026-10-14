@@ -1,0 +1,1 @@
+SELECT id FROM homework_1.tickets WHERE service_class <> 'Business';

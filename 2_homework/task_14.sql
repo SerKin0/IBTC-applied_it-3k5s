@@ -1,0 +1,1 @@
+SELECT side_number FROM airliners WHERE country <> 'Russia' OR (country = 'Russia' AND production_year <> 2005 AND production_year <> 2008 AND range > 5000);
