@@ -1,1 +1,1 @@
-SELECT id, trip_code FROM homework_1.trips WHERE trip_code NOT LIKE 'FY%';
+SELECT id, trip_code FROM trips WHERE trip_code NOT LIKE 'FY%';

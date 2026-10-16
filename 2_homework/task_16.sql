@@ -1,5 +1,5 @@
 SELECT id
-FROM homework_1.tickets
+FROM tickets
 WHERE (
     (price < 15000 AND service_class = 'Business')
     OR

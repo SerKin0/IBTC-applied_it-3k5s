@@ -1,2 +1,2 @@
-SELECT id FROM homework_1.tickets WHERE
+SELECT id FROM tickets WHERE
     price IS NOT NULL;

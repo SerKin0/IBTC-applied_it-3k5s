@@ -1,2 +1,2 @@
 -- Найди клиента с именем Denis и фамилией начинающейся на букву S и номер его телефона имеет вид +7XXX0700202
-SELECT id, name FROM homework_1.clients WHERE name LIKE '% S%' AND name ILIKE 'Denis%' AND phone LIKE '+7___0700202';
+SELECT id, name FROM clients WHERE name LIKE '% S%' AND name ILIKE 'Denis%' AND phone LIKE '+7___0700202';

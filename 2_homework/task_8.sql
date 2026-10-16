@@ -1,1 +1,1 @@
-SELECT id FROM homework_1.clients WHERE name LIKE 'Daria%';
+SELECT id FROM clients WHERE name LIKE 'Daria%';

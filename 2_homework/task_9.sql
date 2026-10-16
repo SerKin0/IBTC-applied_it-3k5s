@@ -1,1 +1,1 @@
-SELECT id FROM homework_1.tickets WHERE service_class <> 'Business';
+SELECT id FROM tickets WHERE service_class <> 'Business';
