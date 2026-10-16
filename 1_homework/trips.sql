@@ -16,7 +16,7 @@ SELECT * FROM trips;
 
 -- Вставляем данные из CSV файла в таблицу trips
 COPY trips FROM 'C:\Program Files\PostgreSQL\17\data\trips.csv'
-WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
+WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8', NULL 'null');
 
 -- Проверяем, что данные вставлены
 SELECT * FROM trips;

@@ -20,7 +20,7 @@ CREATE TEMP TABLE airliners_temp (LIKE airliners);
 
 -- Вставляем данные из CSV файла в временную таблицу airliners
 COPY airliners_temp FROM 'C:\Program Files\PostgreSQL\17\data\airliners.csv' 
-WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
+WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8', NULL 'null');
 
 -- Вставляем данные из временной таблицы airliners_temp в основную таблицу airliners
 INSERT INTO airliners

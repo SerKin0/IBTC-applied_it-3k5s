@@ -14,7 +14,7 @@ SELECT * FROM clients;
 
 -- Вставляем данные из CSV файла в таблицу clients
 COPY clients FROM 'C:\Program Files\PostgreSQL\17\data\clients.csv'
-WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8');
+WITH (FORMAT csv, HEADER true, DELIMITER ';', ENCODING 'UTF8', NULL 'null');
 
 
 -- Проверяем, что данные вставлены
